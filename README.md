@@ -5,8 +5,8 @@ Repository for educational workshop on building and deploying API endpoints for 
 1. To begin the workshop, fork this repo to your github profile (keep the name as mlops-workshop)
 2. Let me know when you have forked the repo. I will run the `infra_setup/create_pipeline_service_roles.sh` and `infra_setup/create_pipelines.sh` on your username and github repo profile name
 3. Once this is complete, go to the AWS portal and select the `mlops-workshop-student` role you will have been assigned access to
-4. Go to the CodePipeline service, open the navigation bar on the left-hand side, click Settings>Connections
-5. Select your connection. Your username was given to you when you signed up -- my username is `mmur`, so my connection is `mmur-connection`. Please do not touch other connections -- I've tried to limit access but things can slip through.
+4. Go to the CodePipeline service, open the navigation bar on the left-hand side, click Settings > Connections
+5. Select your connection. Your username was given to you when you signed up -- my username is `mmur`, so my connection is `mmur-connection`. Please do not touch other connections -- I've tried to limit access but things can slip through. Bernhard Klingenberg's username is `bkli`. 
 6. Click the `Update pending connection` button. A new browser window will pop up and should ask you to authorize GitHub access, or ask you to sign in first if you haven't in awhile in this browser. Once it has been approved, click the button to `Install new app` and approve GitHub once more -- **LIMIT ACCESS TO JUST YOUR FORKED REPO, DO NOT ALLOW ACCESS TO ALL** -- this creates a two-way connection, which is what we need. You can verify it was successful by going to your GitHub profile, clicking your profile icon (top right) and clicking the Settings button, then scrolling down to the bottom left and selecting Applications. You should see AWS Connector for GitHub under both the Installed GitHub Apps and Authorized GitHub Apps tabs.
 7. Your CodePipeline is set up! Now when you merge to `main` on your forked repo, the build will trigger and create services with your username as a prefix
 
