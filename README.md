@@ -1,4 +1,4 @@
-# mlops-workshop
+# mlops-workshop fokred over from Matthias
 Repository for educational workshop on building and deploying API endpoints for ML models to AWS
 
 # Onboarding
